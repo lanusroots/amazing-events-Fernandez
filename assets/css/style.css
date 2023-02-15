@@ -1,0 +1,70 @@
+/*color-scheme: 
+#7651FF
+#16CB97
+#E120A3
+#F9C709
+#2C8419
+#C12A14
+#F6F4FC;*/
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #ebaac8  !important; 
+}
+.active{
+   background-color:  #D90368!important; 
+}
+
+.btn{
+    background-color: #ebaac8 !important;
+}
+
+.btn:hover{
+    background-color: #D90368 !important;
+}
+
+.title{
+    background-image: url(../img/img_banner.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-check-input:checked {
+    background-color: #D90368 !important;
+    border-color: #D90368 !important;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s ease-out;
+    padding: 0 !important;
+}
+
+.big-card:hover{
+    transform: none;
+}
+
+.bg-personalized{
+    background-color: #89e5cb !important;
+}
+
+.bg-personalized1{
+    background-color: #cd5e4e !important;
+}
+
+.bg-personalized2{
+    background-color: #ebd581 !important;
+}
+
+.social-networks:hover{
+    color: #000000;
+}
+
+.foot{
+    background-color: #7651FF;
+}
