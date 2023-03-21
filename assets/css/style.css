@@ -11,11 +11,23 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.nav-link:hover{
-    background-color: #ebaac8  !important; 
+.card-img-top{
+    object-fit: cover;
+    height: 15rem;
 }
+
+.nav-link{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.nav-link:hover{
+    background-color: #ebaac8 !important; 
+}
+
 .active{
-   background-color:  #D90368!important; 
+   background-color:  #D90368 !important;
+   color: #ffffff !important; 
 }
 
 .btn{
@@ -32,6 +44,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.text-customized{
+    color: #D90368 !important;
 }
 
 .form-check-input:checked {
